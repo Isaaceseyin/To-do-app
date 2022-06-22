@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo app
+        
+    </title>
+    <link rel="stylesheet" href="icons/css/font-awesome.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="my-4 text-center text-light">
+            <h1 class="mb-4">To-do List</h1>
+            <form class="search">
+                <input type="text" name="search" class="m-auto form-control" placeholder="search todos">
+            </form>
+        </header>
+
+        <ul class="mx-auto list-group todos text-light">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>Read my bible daily</span>
+                <i class="fa fa-trash-o delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>practice my coding skill</span>
+                <i class="fa fa-trash-o delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>mediate and  worship God</span>
+                <i class="fa fa-trash-o delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <span>Chat with God <i class="fa fa-heart"></i></span>
+                <i class="fa fa-trash-o delete"></i>
+            </li>
+        </ul>
+        <form class="my-4 text-center add">
+            <label class="text-light">Add a new To-do</label>
+            <input type="text" name="add" class="m-auto form-control">
+        </form>
+
+    </div>
+    
+    <script src="js/app.js"></script>
+</body>
+</html> 
